@@ -77,7 +77,7 @@
   }
 
   $.fn.checkbox.defaults = {
-    template: '<span class="icons"><span class="first-icon"></span><span class="second-icon ss-check"></span></span>'
+    template: '<span class="icons"><span class="first-icon"></span><span class="second-icon fa fa-check"></span></span>'
   }
 
 
