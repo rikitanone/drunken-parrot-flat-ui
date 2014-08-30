@@ -6,3 +6,4 @@ Drunken Parrot Flat UI Free is licensed under a Creative Commons Attribution 3.0
 ## Links:
 
 + [Hoarrd.com](http://hoarrd.com)
++ [Components & Style Guide: Free Version](http://hoarrd.github.io/drunken-parrot-flat-ui/)
