@@ -1,0 +1,85 @@
+/*@input-bg:                  @inverse;*/
+/*@alert-padding:               15px;
+@alert-border-radius:         @border-radius-base;
+@alert-link-font-weight:      bold;*/
+.masthead {
+  background: #fad46b;
+  padding: 100px 0;
+  position: relative;
+  z-index: 2;
+}
+.masthead img {
+  position: relative;
+  bottom: 75px;
+  left: 5px;
+}
+.masthead .masthead-title {
+  font-family: "SourceSansProExtraLight", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  color: white;
+}
+.masthead .masthead-title small {
+  color: white;
+  font-family: "SourceSansProBold", Helvetica, Arial, sans-serif;
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 4px;
+}
+.doc-section {
+  margin-bottom: 40px;
+}
+.doc-section p {
+  font-size: 14px;
+}
+.sidebar {
+  top: 20px;
+  z-index: 1;
+}
+.sidebar ul {
+  width: 100%;
+  border: 1px solid #b2c6cd;
+  border-radius: 6px;
+}
+.sidebar li > a {
+  font-size: 16px;
+  padding: 4px 15px;
+  color: #5e6969;
+}
+.sidebar li > a:hover {
+  background: #02baf2;
+  color: white;
+}
+.sidebar li.active > a {
+  background: #02baf2;
+  color: white;
+}
+.sidebar li:first-child.active > a,
+.sidebar li:first-child > a:hover {
+  border-top-left-radius: 5px;
+}
+.sidebar li:last-child.active > a,
+.sidebar li:last-child > a:hover {
+  border-bottom-left-radius: 5px;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 1170px;
+  }
+  .masthead {
+    padding: 265px 0;
+  }
+  .masthead .masthead-title {
+    font-size: 80px;
+  }
+  .masthead .masthead-title small {
+    font-size: 30px;
+  }
+  .doc-section {
+    margin-bottom: 80px;
+  }
+  .doc-section p {
+    font-size: 16px;
+  }
+}
