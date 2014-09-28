@@ -26,7 +26,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /*@input-bg:                  @inverse;*/
 /*@alert-padding:               15px;
 @alert-border-radius:         @border-radius-base;
@@ -215,6 +214,13 @@ fieldset[disabled] .btn {
   color: rgba(255, 255, 255, 0.75);
   opacity: 0.7;
   filter: alpha(opacity=70);
+}
+.btn.dropdown-toggle:before {
+  font-family: FontAwesome;
+  content: "\f078";
+  font-size: 12px;
+  float: right;
+  padding: 3px 0;
 }
 .btn-default {
   color: #02baf2;
@@ -933,9 +939,11 @@ fieldset[disabled] .btn-inverse.active {
   top: 0;
   position: absolute;
   text-align: center;
-  line-height: 16px;
   font-size: 16px;
   cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: block;
 }
 .checkbox .icons .first-icon,
 .radio .icons .first-icon,
@@ -943,7 +951,6 @@ fieldset[disabled] .btn-inverse.active {
 .radio .icons .second-icon {
   height: 20px;
   width: 20px;
-  display: inline-table;
   position: absolute;
   left: 0;
   top: 0;
@@ -956,8 +963,8 @@ fieldset[disabled] .btn-inverse.active {
 .radio .icons .first-icon:before,
 .checkbox .icons .second-icon:before,
 .radio .icons .second-icon:before {
-  position: relative;
-  top: 3px;
+  margin-top: 1px;
+  display: block;
 }
 .checkbox .icons .second-icon,
 .radio .icons .second-icon {
@@ -1154,7 +1161,7 @@ label {
   color: #364347;
   font-size: 16px;
   line-height: 1.467;
-  padding: 8px 12px;
+  padding: 7px 12px;
   height: 40px;
   -webkit-appearance: none;
   border-radius: 4px;
@@ -1318,6 +1325,7 @@ select[multiple].input-lg {
   right: 10px;
   top: -15px;
   -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
 }
 .input-required span:after {
   content: '';
@@ -1429,7 +1437,7 @@ select[multiple].input-lg {
   color: white;
 }
 .label {
-  padding: .15em .5em .2em;
+  padding: .2em .5em .2em;
 }
 .label-default {
   background-color: #b2c6cd;
