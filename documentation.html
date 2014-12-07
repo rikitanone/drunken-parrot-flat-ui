@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Drunken Parrot UI Kit - Bootstrap Framework Theme</title>
+	<meta name="description" content="UI Kit Free is a Twitter Bootstrap Framework design and Theme."/>
+	<meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Loading Font Awesome Icons -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Loading Bootstrap -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="bootstrap/css/prettify.css" rel="stylesheet">
+
+	<!-- Loading Drunken Parrot UI -->
+	<link href="css/drunken-parrot.css" rel="stylesheet">
+	<link href="css/docs.css" rel="stylesheet">
+
+	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body data-spy="scroll" data-target="#sidenav" data-offset="100">
+
+	<div class="masthead">
+		<div class="container">
+			<img src="images/logo@2x.png" width="101" height="22" alt="">
+			<div class="masthead-title">Drunken Parrot UI Kit
+				<small>Documentation</small>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-10">
+			<div class="componant-section">
+					<!-- #### Buttons #### -->
+					<h2 class="demo-section-title" id="buttons">Buttons</h2>
+
+					<div class="doc-section">
+						<p>We have restyled all the core <a href="http://getbootstrap.com/css/#buttons">bootstrap button classes</a>.</p>
+						<p>
+							<button class="btn btn-default">Default</button>
+							<button class="btn btn-primary">Primary</button>
+							<button class="btn btn-danger">Danger</button>
+							<button class="btn btn-warning">Warning</button>
+							<button class="btn btn-info">Info</button>
+							<button class="btn btn-success">Success</button>
+						</p>
+
+<pre class="prettyprint">
+&lt;button class="btn btn-default"&gt;Default&lt;/button&gt;
+&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
+&lt;button class="btn btn-warning"&gt;Warning&lt;/button&gt;
+&lt;button class="btn btn-info"&gt;Info&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+</pre>
+			</div>
+
+			<div class="doc-section">
+
+				<p>and have introduced a new class called <span class="label label-primary">.btn-stroke</span>.</p>
+				<p><button class="btn btn-stroke">Stoke</button></p>
+
+<pre class="prettyprint">
+&lt;button class="btn btn-stroke"&gt;Stoke&lt;/button&gt;
+</pre>
+			</div>
+
+			<div class="doc-section">
+				<p>We have also added the classes <span class="label label-primary">.btn-orange</span> and <span class="label label-primary">.btn-purple</span> to the color various for you to use.</p>
+				<p><button class="btn btn-purple">Purple</button> <button class="btn btn-orange">Orange</button></p>
+<pre class="prettyprint">
+&lt;button class="btn btn-purple"&gt;Purple&lt;/button&gt;
+&lt;button class="btn btn-orange"&gt;Orange&lt;/button&gt;
+</pre>
+			</div>
+
+			<div class="doc-section">
+				<p>All the buttons have disabled variations.</p>
+				<p>
+					<button class="btn btn-default" disabled="disabled">Disabled</button>
+					<button class="btn btn-primary" disabled="disabled">Disabled</button>
+					<button class="btn btn-danger" disabled="disabled">Disabled</button>
+					<button class="btn btn-warning" disabled="disabled">Disabled</button>
+					<button class="btn btn-info" disabled="disabled">Disabled</button>
+					<button class="btn btn-stroke" disabled="disabled">Disabled</button>
+				</p>
+
+<pre class="prettyprint">
+&lt;button class="btn btn-default" disabled="disabled"&gt;Default&lt;/button&gt;
+&lt;button class="btn btn-primary" disabled="disabled"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-danger" disabled="disabled"&gt;Danger&lt;/button&gt;
+&lt;button class="btn btn-warning" disabled="disabled"&gt;Warning&lt;/button&gt;
+&lt;button class="btn btn-info" disabled="disabled"&gt;Info&lt;/button&gt;
+&lt;button class="btn btn-success" disabled="disabled"&gt;Success&lt;/button&gt;
+</pre>
+			</div>
+
+			<div class="doc-section">
+				<p>You can also create a 3D button variant of any of the buttons by adding the class <span class="label label-primary">.btn-embossed</span>.</p>
+				<p><button class="btn btn-primary btn-embossed">3D Button</button> <button class="btn btn-success btn-embossed">3D Button</button></p>
+<pre class="prettyprint">
+&lt;button class="btn btn-primary btn-embossed"&gt;3D Button&lt;/button&gt;
+&lt;button class="btn btn-success btn-embossed"&gt;3D Button&lt;/button&gt;
+</pre>
+			</div>
+
+			<div class="doc-section">
+				<p>Finally, we have introduced one new size called <strong>Kraken</strong>, to use this size simply add <span class="label label-primary">.btn-kr</span> to any button.
+				<p><button class="btn btn-primary btn-kr">Kraken Button</button></p>
+<pre class="prettyprint">
+&lt;button class="btn btn-primary btn-kr"&gt;Kraken&lt;/button&gt;
+</pre>
+			</div>
+
+
+			<!-- ##### Inputs ##### -->
+			<h2 class="demo-section-title" id="inputs">Inputs</h2>
+
+
+			<div class="doc-section">
+				<p>We have restyled the bootstrap inputs, below is an example of a standard text input.</p>
+				<div class="row">
+					<div class="col-md-5">
+						<p><input type="text" class="form-control" placeholder="Web designer, etc."></p>
+					</div>
+				</div>
+<pre class="prettyprint">
+&lt;input type="text" class="form-control" placeholder="Web designer, etc."&gt
+</pre>
+			</div>
+
+			<div class="doc-section hidden-xs">
+
+				<p>You can add a required marker by adding the class <span class="label label-primary">.input-required</span> to the form group element and an empty span element following the input field.</p>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="form-group input-required">
+							<input type="text" class="form-control" required placeholder="The Walrus, The Ranger, etc."><span></span>
+						</div>
+					</div>
+				</div>
+
+<pre class="prettyprint">
+&lt;div class="form-group input-required"&gt
+   &lt;input type="text" class="form-control" required placeholder="The Walrus, The Ranger, etc."&gt
+   &lt;span&gt&lt;/span&gt
+&lt;/div&gt
+</pre>
+			</div>
+			<div class="doc-section">
+				<p>Icons can be added to the start of inputs by adding the <span class="label label-primary">.input-icon</span> class to the parent element and including the icon you want before the input field.</p>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="form-group input-icon">
+							<span class="fa fa-user"></span>
+							<input type="text" class="form-control" placeholder="Username">
+						</div>
+					</div>
+				</div>
+
+<pre class="prettyprint">
+&lt;div class="form-group input-icon"&gt
+   &lt;span class="fa fa-user"&gt&lt;/span&gt
+   &lt;input type="text" class="form-control" placeholder="Username"&gt
+&lt;/div&gt
+</pre>
+			</div>
+
+			<div class="doc-section">
+				<p>and the error state use the same classes as well.</p>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="form-group has-warning">
+							<input type="text" class="form-control" value="Warning" >
+						</div>
+
+						<div class="form-group has-error">
+							<input type="text" class="form-control" value="Error" >
+						</div>
+
+						<div class="form-group has-success">
+							<input type="text" class="form-control" value="Success" />
+						</div>
+
+					</div>
+				</div>
+					<br>
+<pre class="prettyprint">
+&lt;div class="form-group has-warning"&gt
+   &lt;input type="text" class="form-control" value="Warning"&gt
+&lt;/div&gt
+
+&lt;div class="form-group has-error"&gt
+   &lt;input type="text" class="form-control" value="Error"&gt
+&lt;/div&gt
+
+&lt;div class="form-group has-success"&gt
+   &lt;input type="text" class="form-control" value="Success"&gt
+&lt;/div&gt
+</pre>
+			</div>
+
+
+
+			<!-- #### Pagination #### -->
+			<h2 class="demo-section-title" id="pagination">Pagination</h2>
+			<div class="doc-section">
+				<p>The pagination uses the same classes as bootstrap</p>
+				<ul class="pagination">
+					<li><a href="#">&larr;</a></li>
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li class="disabled"><a href="#">5</a></li>
+					<li><a href="#">&rarr;</a></li>
+				</ul>
+<pre class="prettyprint">
+&lt;ul class="pagination"&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&larr;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="disabled"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&rarr;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+			</div>
+			<div class="doc-section">
+				<p>You can you the classes <span class="label label-primary">.pagination-sm</span> or <span class="label label-primary">.pagination-lg</span> to control the sizes</p>
+				<ul class="pagination pagination-sm">
+					<li><a href="#">&larr;</a></li>
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li class="disabled"><a href="#">5</a></li>
+					<li><a href="#">&rarr;</a></li>
+				</ul>
+					<br>
+				<ul class="pagination pagination-lg">
+					<li><a href="#">&larr;</a></li>
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li class="disabled"><a href="#">5</a></li>
+					<li><a href="#">&rarr;</a></li>
+				</ul>
+<pre class="prettyprint">
+&lt;ul class="pagination pagination-sm"&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&larr;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="disabled"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&rarr;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class="pagination pagination-lg"&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&larr;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="disabled"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&rarr;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</pre>
+			</div>
+
+
+			<!-- #### Breadcrumbs #### -->
+			<h2 class="demo-section-title" id="breadcrumbs">Breadcrumbs</h2>
+			<div class="doc-section">
+				<p>Breadcrumbs can be made minimal by adding the class <span class="label label-primary">.breadcrumbs-minimal</span>	</p>
+				<ol class="breadcrumb breadcrumbs-minimal">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Electronics Hover</a></li>
+					<li><a href="#">Cameras</a></li>
+					<li class="active">Digital Cameras</li>
+				</ol>
+
+<pre class="prettyprint">
+&lt;ol class="breadcrumb breadcrumbs-minimal"&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Electronics Hover&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Cameras&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Digital Cameras&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+			</div>
+
+
+			<!-- #### Navs #### -->
+			<h2 class="demo-section-title" id="navs">Navs</h2>
+			<div class="doc-section">
+				<p>The default tabs use the same classes as the tabs in bootstrap</p>
+
+				<div class="row">
+				<div class="col-md-6">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Messages</a></li>
+					</ul>
+				</div>
+				</div>
+				<br>
+<pre class="prettyprint">
+&lt;ul class="nav nav-tabs"&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Profile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Messages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+			</div>
+
+			<div class="doc-section">
+				<p>and if you want to double the border you can add the class <span class="label label-primary">.nav-stroke</span></p>
+				<div class="row">
+				<div class="col-md-6">
+					<ul class="nav nav-tabs nav-stroke">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Messages</a></li>
+					</ul>
+				</div>
+				</div>
+				<br>
+<pre class="prettyprint">
+&lt;ul class="nav nav-tabs nav-stroke"&gt;
+  ...
+&lt;/ul&gt;
+</pre>
+
+			</div>
+
+			<div class="doc-section">
+				<p>and the restyled pills navigation</p>
+				<div class="row">
+				<div class="col-md-6">
+					<ul class="nav nav-pills">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Messages</a></li>
+						<li class="disabled"><a href="#">Disabled</a></li>
+					</ul>
+				</div>
+				</div>
+				<br>
+<pre class="prettyprint">
+&lt;ul class="nav nav-pills"&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Profile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Messages&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="disabled"&gt;&lt;a href="#"&gt;Disabled link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+			</div>
+
+
+			<!-- #### Alerts #### -->
+			<h2 class="demo-section-title" id="alerts">Alerts</h2>
+
+			<div class="doc-section">
+				<p>You can change the icon used to close the alerts if you want but changing the class on the button element but most of the time you will want to use <span class="label label-primary">.fa-times</span> and dont forget to add <span class="label label-primary">.alert-dismissable</span> to the parent div.</p>
+				<div class="alert alert-primary alert-dismissable">
+					<button type="button" class="close fa fa-times"></button>
+					Primary! There's never a man <strong>looked me between the eyes</strong> and seen a good day a'terward.
+				</div>
+				<br>
+<pre class="prettyprint">
+&lt;div class="alert alert-primary alert-dismissable"&gt;
+  &lt;button type="button" class="close fa fa-times"&gt;&lt;/button&gt;
+  ...
+&lt;/div&gt;
+</pre>
+
+			</div>
+			<div class="doc-section">
+				<p>All the color variations are available via the same classes as bootstrap</p>
+				<div class="alert alert-primary">Primary</div>
+				<div class="alert alert-info">Info</div>
+				<div class="alert alert-success">Success</div>
+				<div class="alert alert-warning">Warning</div>
+				<div class="alert alert-danger">Error</div>
+				<br>
+<pre class="prettyprint">
+&lt;div class="alert alert-primary"&gt;...&lt;/div&gt;
+&lt;div class="alert alert-info"&gt;...&lt;/div&gt;
+&lt;div class="alert alert-success"&gt;...&lt;/div&gt;
+&lt;div class="alert alert-warning"&gt;...&lt;/div&gt;
+&lt;div class="alert alert-error"&gt;...&lt;/div&gt;
+</pre>
+
+			</div>
+
+			<!-- #### Thumbnails #### -->
+			<h2 class="demo-section-title" id="thumbnails">Thumbnails</h2>
+
+			<div class="doc-section">
+				<p>We have introduced a hover state to the bootstrap thumbnails, you can control the icon by changing the icon class on the a tag, by default we use <span class="label label-primary">.fa-eye</span> which should be suitable for many cases.</p>
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<a href="#" class="thumbnail fa fa-eye">
+							<img src="images/thumbnail-01.jpg" alt="100%x180" >
+						</a>
+					</div>
+				</div>
+				<br>
+<pre class="prettyprint">
+&lt;a href="#" class="thumbnail fa fa-eye"&gt;
+  &lt;img src="images/thumbnail.jpg" &gt;
+&lt;/a&gt;
+</pre>
+
+			</div>
+			<div class="doc-section">
+				<p>Custom content thumbnails follow the same patterns as bootstraps thumbnails however you can add <span class="label label-primary">.thumbnail-caption</span> to the container div to round the corners of the thumbnail image.</p>
+				<div class="thumbnail thumbnail-caption col-md-4 col-md-offset-4">
+			      	<img src="images/thumbnail-large-01.jpg" alt="100%x180" style="width: 100%; display: block;">
+			      	<div class="caption">
+				        <h4>15 men on a dead chest</h4>
+				        <p>Fifteen men on the dead man’s chest – Yo-ho-ho and a bottle of rum! Drink and the devil had done for the rest – Yo-ho-ho and a bottle of rum!</p>
+				        <p>
+				        	<a href="#" class="btn btn-primary" style="width: 100px;" role="button">Arr!</a>
+				        	<a href="#" class="btn btn-stroke" style="width: 100px; margin-left: 10px;" role="button">Avast</a>
+				        </p>
+			      	</div>
+			    </div>
+				<br>
+				<div class="clearfix"></div>
+<pre class="prettyprint ">
+&lt;div class="thumbnail thumbnail-caption"&gt;
+  &lt;img src="images/thumbnail-large.jpg"&gt;
+  &lt;div class="caption"&gt;
+    &lt;h4&gt;...&lt;/h4&gt;
+    &lt;p&gt;...&lt;/p&gt;
+    &lt;p&gt;
+      &lt;a href="#" class="btn btn-primary"&gt;Arr!&lt;/a&gt;
+      &lt;a href="#" class="btn btn-stroke"&gt;Avast&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+			</div>
+
+			<!-- #### Panels #### -->
+			<h2 class="demo-section-title" id="panels">Panels</h2>
+
+			<div class="doc-section">
+				<p>Our restyled panels all follow the same classes as there bootstrap counterparts, so panels are easily intergrated into your projects.</p>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								Basic panel
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">Panel heading without title</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								Panel content
+							</div>
+							<div class="panel-footer">Panel footer</div>
+						</div>
+					</div>
+				</div>
+				<br>
+<pre class="prettyprint">
+&lt;!-- Basic --&gt;
+&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-body"&gt;
+    Basic panel
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- With Headings --&gt;
+&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-heading"&gt;Panel heading without title&lt;/div&gt;
+  &lt;div class="panel-body"&gt;
+    Panel content
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-heading"&gt;
+    &lt;h3 class="panel-title"&gt;Panel title&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class="panel-body"&gt;
+    Panel content
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- With Footer --&gt;
+&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-body"&gt;
+    Panel content
+  &lt;/div&gt;
+  &lt;div class="panel-footer"&gt;Panel footer&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+				</div>
+				<div class="doc-section">
+					<p>All the contextual options are also available by adding any of the contextual state classes.</p>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel Primary</h3>
+								</div>
+								<div class="panel-body">
+									This be yer content in here!
+								</div>
+							</div>
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel Info</h3>
+								</div>
+								<div class="panel-body">
+									This be yer content in here!
+								</div>
+							</div>
+							<div class="panel panel-success">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel Success</h3>
+								</div>
+								<div class="panel-body">
+									This be yer content in here!
+								</div>
+							</div>
+							<div class="panel panel-warning">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel Warning</h3>
+								</div>
+								<div class="panel-body">
+									This be yer content in here!
+								</div>
+							</div>
+							<div class="panel panel-danger">
+								<div class="panel-heading">
+									<h3 class="panel-title">Panel Danger</h3>
+								</div>
+								<div class="panel-body">
+									This be yer content in here!
+								</div>
+							</div>
+						</div>
+					</div>
+<br>
+<pre class="prettyprint">
+&lt;div class="panel panel-primary"&gt;...&lt;/div&gt;
+&lt;div class="panel panel-success"&gt;...&lt;/div&gt;
+&lt;div class="panel panel-info"&gt;...&lt;/div&gt;
+&lt;div class="panel panel-warning"&gt;...&lt;/div&gt;
+&lt;div class="panel panel-danger"&gt;...&lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="doc-section">
+					<p>Our version of the panels with tables, again these follow the same classes as the bootstrap version.</p>
+					<div class="row">
+						<div class="col-xs-12 col-md-8">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading">Shiver me timbers!</div>
+								<div class="panel-body">
+									<p>My name is Captain Kidd, as I sailed, as I sailed. Oh my name is Captain Kidd as I sailed. My name is Captain Kidd and God's laws I did forbid, and most wickedly I did as I sailed.</p>
+								</div>
+
+								<!-- Table -->
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Ship Name</th>
+											<th>Captain</th>
+											<th>Status</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Walrus</td>
+											<td>James Flint</td>
+											<td>Unknown</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Royal Fortune</td>
+											<td>Black Bart</td>
+											<td>Destroyed</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Ranger</td>
+											<td>Charles Vane</td>
+											<td>Captured</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+<pre class="prettyprint">
+&lt;!-- Panel with Table --&gt;
+&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-heading"&gt;Panel heading&lt;/div&gt;
+  &lt;div class="panel-body"&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Table --&gt;
+  &lt;table class="table"&gt;
+    ...
+  &lt;/table&gt;
+&lt;/div>
+</pre>
+			</div>
+
+
+			<!-- #### Checkboxes #### -->
+			<h2 class="demo-section-title" id="checkboxes">Checkboxes</h2>
+			<div class="doc-section">
+				<p>Our checkboxes require javascript to work correctly. First off make sure you have included jQuery in your code and the checkbox.js plugin.</p>
+		      	<div class="row">
+					<div class="col-md-6">
+			          	<label class="checkbox" for="checkbox1">
+				            <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" />
+				            No one be fillin’ my box!
+				        </label>
+
+					</div>
+				</div>
+				<br>
+<p>To get a checkbox up and running is nice and simple, wrap the input in a label with the class <span class="label label-primary">.checkbox</span> and add the attribute <span class="label label-primary">data-toggle="checkbox"</span> to the checkbox input. Thats it.
+<pre class="prettyprint">
+&lt;label class="checkbox&gt;
+  &lt;input type="checkbox" value="" data-toggle="checkbox" /&gt;
+  Oy! Me box is filled!
+&lt;/label&gt;
+</pre>
+			</div>
+			<div class="doc-section">
+				<p>Adding in the standard attributes of <span class="label label-primary">checked=""</span> and <span class="label label-primary">disabled=""</span> will work as expected.</p>
+		      	<div class="row">
+					<div class="col-md-6">
+			          	<label class="checkbox">
+				            <input type="checkbox" value="" data-toggle="checkbox" checked=""/>
+				            Oy! Me box is filled!
+				        </label>
+			          	<label class="checkbox">
+				            <input type="checkbox" value="" data-toggle="checkbox" disabled="" />
+				            Aaand I’m disabled.
+				        </label>
+			          	<label class="checkbox">
+				            <input type="checkbox" value="" data-toggle="checkbox" disabled="" checked="" />
+				            Got picked, but I’m disabled.
+				        </label>
+					</div>
+				</div>
+<pre class="prettyprint">
+&lt;label class="checkbox"&gt;
+  &lt;input type="checkbox" value="" data-toggle="checkbox" checked=""/&gt;
+  Oy! Me box is filled!
+&lt;/label&gt;
+
+&lt;label class="checkbox"&gt;
+  &lt;input type="checkbox" value="" data-toggle="checkbox" disabled="" /&gt;
+  Aaand I’m disabled.
+&lt;/label&gt;
+
+&lt;label class="checkbox"&gt;
+  &lt;input type="checkbox" value="" data-toggle="checkbox" disabled="" checked="" /&gt;
+  Got picked, but I’m disabled.
+&lt;/label&gt;
+</pre>
+			</div>
+
+			<!-- #### Radios #### -->
+			<h2 class="demo-section-title" id="radio">Radio</h2>
+			<div class="doc-section">
+				<p>Our radios also require javascript to work correctly. Just like the checkboxes, make sure you have included jQuery in your code and the radio.js plugin.</p>
+		      	<div class="row">
+					<div class="col-md-6">
+		          	<label class="radio">
+		            	<input type="radio" name="optionsRadios" value="option1" data-toggle="radio">
+			            Radio is off
+			        </label>
+					</div>
+				</div>
+				<br>
+<p>To get a radio up and running is also nice and simple, wrap the input in a label with the class <span class="label label-primary">.radio</span> and add the attribute <span class="label label-primary">data-toggle="radio"</span> to the radio input. Thats it.
+<pre class="prettyprint">
+&lt;label class="radio&gt;
+  &lt;input type="radio" name="optionsRadios" value="option1" data-toggle="radio" /&gt;
+  Radio is off
+&lt;/label&gt;
+</pre>
+			</div>
+			<div class="doc-section">
+				<p>Just like the checkbox elements, adding in the standard attributes of <span class="label label-primary">checked=""</span> and           <span class="label label-primary">disabled=""</span> will work as expected.</p>
+		      	<div class="row">
+					<div class="col-md-6">
+				        <label class="radio">
+				            <input type="radio" name="optionsRadios" value="option1" data-toggle="radio" checked="">
+				            Radio is on
+				        </label>
+
+				        <label class="radio">
+				            <input type="radio" name="optionsRadiosDisabled" value="option2" data-toggle="radio" disabled="">
+				            Disabled radio is off
+				        </label>
+
+				        <label class="radio">
+				            <input type="radio" name="optionsRadiosDisabled" value="option2" data-toggle="radio" checked="" disabled="">
+				            Disabled radio is on
+				        </label>
+					</div>
+				</div>
+<pre class="prettyprint">
+&lt;label class="radio"&gt;
+  &lt;input type="radio" value="" name="optionsRadios" data-toggle="radio" checked="" /&gt;
+  Radio is on
+&lt;/label&gt;
+
+&lt;label class="radio"&gt;
+  &lt;input type="radio" value="" name="optionsRadiosDisabled" data-toggle="radio" disabled="" /&gt;
+  Disabled radio is off
+&lt;/label&gt;
+
+&lt;label class="radio"&gt;
+  &lt;input type="radio" value="" name="optionsRadiosDisabled" data-toggle="radio" disabled="" checked="" /&gt;
+  Disabled radio is on
+&lt;/label&gt;
+</pre>
+			</div>
+
+			<!-- #### Switches #### -->
+			<h2 class="demo-section-title" id="switches">Switches</h2>
+			<div class="doc-section">
+				<p>We use the bootstrap switch plugin from <a href="http://www.bootstrap-switch.org/">http://www.bootstrap-switch.org/</a> and requires jQuery like our other plugins. To get started with the switches include the bootstrap-switch JS plugin.</p>
+
+				<p>Using the plugin is extremly simple, just add the attribute <span class="label label-primary">data-toggle="switch"</span> to a checkbox input and initialise the plugin.</p>
+<pre class="prettyprint">
+$("[data-toggle='switch']").bootstrapSwitch();
+</pre>
+<br>
+				<input type="checkbox" data-toggle="switch" />
+				<br><br>
+<pre class="prettyprint">
+&lt;input type="checkbox" data-toggle="switch" /&gt;
+</pre>
+			<p>Adding the checked attribute the element will turn the switch on.</p>
+			<input type="checkbox" checked data-toggle="switch" />
+			<br><br>
+<pre class="prettyprint">
+&lt;input type="checkbox" checked data-toggle="switch" /&gt;
+</pre>
+			</div>
+
+
+			<!-- #### Navbar #### -->
+			<h2 class="demo-section-title hidden-xs" id="navbars">Navbar</h2>
+			<div class="doc-section hidden-xs">
+				<p>Our restyled navbars. If you want to include icons in the navbar use the class <span class="label label-primary">.navbar-icons</span> on the ul element.</p>
+				<p>You can add a 'New' notification indicator next to an icon by adding in the element <span class="label label-primary">&lt;span class="navbar-new"&gt;&lt;/span&gt;</span> after the icon you want the indicator to appear. Note that the span must be on a new line in the HTML.</p>
+				<br>
+				<nav class="navbar navbar-default" role="navigation">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">Hoarrd!</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Ranger</a></li>
+							<li><a href="#">Walrus</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dah <span class="fa fa-chevrondown"></span></a>
+								<ul class="dropdown-menu">
+									<div class="arrow top"></div>
+									<li><a href="#">Action</a></li>
+									<li class="active"><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right navbar-icons">
+							<li>
+								<a href="#">
+									<span class="fa fa-user"></span><span class="hidden-lg">My Account</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa fa-bell"></span><span class="hidden-lg">Messages</span>
+									<span class="navbar-new"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa fa-cog"></span><span class="hidden-lg">Settings</span>
+								</a>
+							</li>
+						</ul>
+						<p class="navbar-text navbar-right">Heigh-ho, <a href="#" class="navbar-link">Billy Bones</a></p>
+				</nav>
+				<br>
+<pre class="prettyprint hidden-xs">
+&lt;nav class="navbar navbar-default" role="navigation"&gt;
+  &lt;div class="navbar-header"&gt;
+    &lt;a class="navbar-brand" href="#"&gt;Hoarrd!&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;ul class="nav navbar-nav"&gt;
+    &lt;li class="active"&gt;&lt;a href="#"&gt;Ranger&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Walrus&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="dropdown"&gt;
+      &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;Dah &lt;span class="fa fa-chevrondown"&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;ul class="dropdown-menu"&gt;
+        &lt;div class="arrow top"&gt;&lt;/div&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="active"&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;ul class="nav navbar-nav navbar-right navbar-icons"&gt;
+    &lt;li&gt;
+      &lt;a href="#"&gt;
+        &lt;span class="fa fa-user"&gt;&lt;/span&gt;&lt;span class="hidden-lg"&gt;My Account&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="#"&gt;
+        &lt;span class="fa fa-bell"&gt;&lt;/span&gt;&lt;span class="hidden-lg"&gt;Messages&lt;/span&gt;
+        &lt;span class="navbar-new"&gt;&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="#"&gt;
+        &lt;span class="fa fa-cog"&gt;&lt;/span&gt;&lt;span class="hidden-lg"&gt;Settings&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p class="navbar-text navbar-right"&gt;Heigh-ho, &lt;a href="#" class="navbar-link"&gt;Billy Bones&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+</pre>
+				</div>
+				<div class="doc-section hidden-xs">
+					<p>Change the class to <span class="label label-primary">.nabar-inverse</span> to use a dark color scheme.</p>
+					<br>
+					<nav class="navbar navbar-inverse" role="navigation">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#">Hoarrd!</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Ranger</a></li>
+							<li><a href="#">Walrus</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dah <span class="fa fa-chevrondown"></span></a>
+								<ul class="dropdown-menu">
+									<div class="arrow top"></div>
+									<li><a href="#">Action</a></li>
+									<li class="active"><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right navbar-icons">
+							<li>
+								<a href="#">
+									<span class="fa fa-user"></span><span class="hidden-lg">My Account</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa fa-bell"></span><span class="hidden-lg">Messages</span>
+									<span class="navbar-new"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa fa-cog"></span><span class="hidden-lg">Settings</span>
+								</a>
+							</li>
+						</ul>
+						<p class="navbar-text navbar-right">Heigh-ho, <a href="#" class="navbar-link">Billy Bones</a></p>
+					</nav>
+					<br>
+<pre class="prettyprint">
+&lt;nav class="navbar navbar-inverse" role="navigation"&gt;
+  ...
+&lt;/nav&gt;
+</pre>
+
+			</div>
+			<!-- #### Tiles #### -->
+			<h2 class="demo-section-title" id="tiles">Tiles</h2>
+			<div class="doc-section">
+				<p>The tiles are a custom componant providied just for the Drunken Parrot UI Kit. We have created two custom tiles, one for a profile and one for a login. Both the tiles are extremely easy to include in your project by following the markup below.</p>
+				<br>
+				<div class="row">
+					<div class="col-md-4 col-xs-12 col-md-offset-1">
+						<div class="tile tile-profile">
+							<img src="images/captain-hoarrd.png" alt="">
+							<h4>James Hoarrd</h4>
+							<p>Ship Captain</p>
+							<a href="#" class="btn btn-block btn-danger btn-embossed">Profile</a>
+						</div>
+						<br>
+					</div>
+					<div class="col-md-4 col-xs-12 col-md-offset-1">
+						<div class="tile tile-login">
+							<h3 class="logo">Hoarrd!</h3>
+							<div class="input-icon">
+								<span class="fa-user fa"></span>
+								<input type="text" class="form-control" placeholder="Username">
+							</div>
+							<div class="input-icon">
+								<span class="fa-lock fa"></span>
+								<input type="password" class="form-control" placeholder="******">
+							</div>
+
+							<a href="#" class="btn btn-block btn-primary btn-embossed">Log in</a>
+
+							<div class="login-action clearfix">
+					          	<div class="col-md-8">
+					          		<label class="checkbox" for="checkbox1">
+						            	<input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" />Remember Me
+						        	</label>
+						    	</div>
+						        <div class="col-md-4">
+						        	<a href="#">Forget?</a>
+						        </div>
+					        </div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+
+				<p>Profile Tile</p>
+<pre class="prettyprint">
+&lt;div class="tile tile-profile"&gt;
+  &lt;img src="images/captain-hoarrd.png" alt=""&gt;
+  &lt;h4&gt;James Hoarrd&lt;/h4&gt;
+  &lt;p&gt;Ship Captain&lt;/p&gt;
+  &lt;a href="#" class="btn btn-block btn-danger btn-embossed"&gt;Profile&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+<br>
+				<p>Login Tile</p>
+
+<pre class="prettyprint">
+&lt;div class="tile tile-login"&gt;
+  &lt;h3 class="logo"&gt;Hoarrd!&lt;/h3&gt;
+  &lt;div class="input-icon"&gt;
+    &lt;span class="fa-user fa"&gt;&lt;/span&gt;
+    &lt;input type="text" class="form-control" placeholder="Username"&gt;
+  &lt;/div&gt;
+  &lt;div class="input-icon"&gt;
+    &lt;span class="fa-lock fa"&gt;&lt;/span&gt;
+    &lt;input type="password" class="form-control" placeholder="******"&gt;
+  &lt;/div&gt;
+  &lt;a href="#" class="btn btn-block btn-primary btn-embossed"&gt;Log in&lt;/a&gt;
+  &lt;div class="login-action clearfix"&gt;
+    &lt;div class="col-md-8"&gt;
+      &lt;label class="checkbox"&gt;
+        &lt;input type="checkbox" value="" data-toggle="checkbox" /&gt;Remember Me
+      &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md-4"&gt;
+      &lt;a href="#"&gt;Forget?&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+			</div>
+
+			<!-- #### Toolbars #### -->
+			<h2 class="demo-section-title" id="toolbars">Toolbars</h2>
+			<div class="doc-section">
+				<p>The toolbar is another custom componant for Drunken Parror UI Kit that makes use of a customised version Paul Kinzett's <a href="http://paulkinzett.github.io/toolbar/">toolbar.js Jquery Plugin</a>. The toolbars requires jquery, so please make sure you have included jQuery in your project and the toolbar.js plugin file.</p>
+
+<br>
+					<div class="row">
+						<div class="col-md-3 col-md-offset-5">
+							<a id="top-toolbar" class="icon-button">
+								<i class="fa fa-cog"></i>
+							</a>
+						</div>
+					</div>
+	<br><br>
+				<p>Include your toolbar icons in a div wrapper and ensure it is hidden.</p>
+<pre class="prettyprint">
+&lt;div id="toolbar-icons" style="display: none"&gt;
+  &lt;a href="#"&gt;&lt;i class="fa fa-user"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fa fa-star"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fa fa-flag"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fa fa-edit"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fa fa-trash-o"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+<br>
+<p>And include the icon you want to trigger the toolbar which will need the class <span class="label label-primary">.icon-button</span> on the parent link tag.</p>
+
+<pre class="prettyprint">
+&lt;a id="toolbar" class="icon-button"&gt;&lt;i class="fa fa-cog"&gt;&lt;/i&gt;&lt;/a&gt;
+</pre>
+<br>
+<p>Finally inlcude the js code as per the documentation in the Toolbar.js documentation.</p>
+<pre class="prettyprint">
+$('#toolbar').toolbar({
+  content: '#toolbar-icons',
+  position: 'top'
+});
+</pre>
+<br>
+<p>We have included two new position options to the toolbar plugin. <span class="label label-primary">vertical-top</span> and <span class="label label-primary">vertical-bottom</span></p>
+<br>
+					<div class="row">
+						<div class="col-md-3 col-xs-4 col-xs-offset-2 col-md-offset-3">
+							<a id="vertical-top-toolbar" class="icon-button">
+								<i class="fa fa-chevron-up"></i>
+							</a>
+						</div>
+
+						<div class="col-md-6 col-xs-6">
+							<a id="vertical-bottom-toolbar" class="icon-button">
+								<i class="fa fa-chevron-down"></i>
+							</a>
+						</div>
+					</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+					<div id="user-toolbar-options" style="display: none">
+						<a href="#"><i class="fa fa-user"></i></a>
+						<a href="#"><i class="fa fa-star"></i></a>
+						<a href="#"><i class="fa fa-flag"></i></a>
+						<a href="#"><i class="fa fa-edit"></i></a>
+						<a href="#"><i class="fa fa-trash-o"></i></a>
+					</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="col-md-2">
+		<div id="sidenav" class="sidebar affix hidden-xs hidden-sm">
+            <ul class="nav" data-spy="affix">
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#inputs">Inputs</a></li>
+				<li><a href="#pagination">Pagination</a></li>
+				<li><a href="#breadcrumbs">Breadcrumbs</a></li>
+				<li><a href="#navs">Navs</a></li>
+				<li><a href="#alerts">Alerts</a></li>
+				<li><a href="#thumbnails">Thumbnails</a></li>
+				<li><a href="#panels">Panels</a></li>
+				<li><a href="#checkboxes">Checkboxes</a></li>
+				<li><a href="#radio">Radios</a></li>
+				<li><a href="#switches">Switches</a></li>
+				<li><a href="#navbars">Navbars</a></li>
+				<li><a href="#tiles">Tiles</a></li>
+				<li><a href="#toolbars">Toolbars</a></li>
+            </ul>
+      	</div>
+	</div>
+
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/checkbox.js"></script>
+	<script src="js/radio.js"></script>
+	<script src="js/bootstrap-switch.js"></script>
+	<script src="js/toolbar.js"></script>
+
+	<script src="bootstrap/js/prettify.js"></script>
+	<script>window.prettyPrint && prettyPrint();</script>
+	<script type="text/javascript">
+		(function($) {
+		    // Switch
+			$("[data-toggle='switch']").bootstrapSwitch();
+			$('#top-toolbar').toolbar({
+				content: '#user-toolbar-options',
+				position: 'top'
+			});
+
+			$('#vertical-top-toolbar').toolbar({
+				content: '#user-toolbar-options',
+				position: 'vertical-top'
+			});
+
+			$('#vertical-bottom-toolbar').toolbar({
+				content: '#user-toolbar-options',
+				position: 'vertical-bottom'
+			});
+		})(jQuery);
+	</script>
+</body>
+</html>
