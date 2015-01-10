@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Drunken Parrot UI Kit - Bootstrap Framework Theme</title>
 	<meta name="description" content="Drunken Parrot UI Kit is a Twitter Bootstrap Framework design and Theme."/>
-	<meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 	<!-- Loading Bootstrap -->
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -24,7 +24,9 @@
 	<![endif]-->
 </head>
 <body data-spy="scroll" data-target="#sidenav" data-offset="100">
-
+	<div class="promo">
+		<p class="text-center">Premium version now available! <a href="https://hoarrd.com">View More</a></p>
+	</div>
 	<div class="masthead">
 		<div class="container">
 			<img src="images/logo@2x.png" width="101" height="22" alt="">
@@ -49,9 +51,9 @@
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Single dropdown</button>
 								<ul class="dropdown-menu" role="menu">
 									<div class="arrow top"></div>
-									<li><a href="#">Dropdown item one</a></li>
-									<li class="active"><a href="#" >Second item</a></li>
-									<li><a href="#">Some third thing here</a></li>
+									<li><a href="#fakeLink">Dropdown item one</a></li>
+									<li class="active"><a href="#fakeLink" >Second item</a></li>
+									<li><a href="#fakeLink">Some third thing here</a></li>
 								</ul>
 							</div>
 						</div>
@@ -62,13 +64,13 @@
 								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
 									<div class="arrow top"></div>
 									<li class="dropdown-header">Some Title</li>
-									<li><a role="menuitem" tabindex="-1" href="#">Dropdown item one</a></li>
-									<li class="active"><a role="menuitem" tabindex="-1" href="#">Second item</a></li>
-									<li><a role="menuitem" tabindex="-1" href="#">Some third thing here</a></li>
+									<li><a role="menuitem" tabindex="-1" href="q">Dropdown item one</a></li>
+									<li class="active"><a role="menuitem" tabindex="-1" href="q">Second item</a></li>
+									<li><a role="menuitem" tabindex="-1" href="q">Some third thing here</a></li>
 									<li class="divider"></li>
 									<li class="dropdown-header">Another title</li>
-									<li class="disabled"><a role="menuitem" tabindex="-1" href="#">I'm a disabled link</a></li>
-									<li><a role="menuitem" tabindex="-1" href="#">Second item</a></li>
+									<li class="disabled"><a role="menuitem" tabindex="-1" href="q">I'm a disabled link</a></li>
+									<li><a role="menuitem" tabindex="-1" href="q">Second item</a></li>
 								</ul>
 							</div>
 						</div>
@@ -77,9 +79,9 @@
 								<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Single dropdown</button>
 								<ul class="dropdown-menu" role="menu">
 									<div class="arrow top"></div>
-									<li><a href="#">Dropdown item one</a></li>
-									<li class="active"><a href="#" >Second item</a></li>
-									<li><a href="#">Some third thing here</a></li>
+									<li><a href="q">Dropdown item one</a></li>
+									<li class="active"><a href="q" >Second item</a></li>
+									<li><a href="q">Some third thing here</a></li>
 								</ul>
 							</div>
 						</div>
@@ -89,13 +91,13 @@
 								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
 									<div class="arrow top"></div>
 									<li class="dropdown-header">Some Title</li>
-									<li><a role="menuitem" tabindex="-1" href="#">Dropdown item one</a></li>
-									<li class="active"><a role="menuitem" tabindex="-1" href="#">Second item</a></li>
-									<li><a role="menuitem" tabindex="-1" href="#">Some third thing here</a></li>
+									<li><a role="menuitem" tabindex="-1" href="#fakeLink">Dropdown item one</a></li>
+									<li class="active"><a role="menuitem" tabindex="-1" href="#fakeLink">Second item</a></li>
+									<li><a role="menuitem" tabindex="-1" href="#fakeLink">Some third thing here</a></li>
 									<li class="divider"></li>
 									<li class="dropdown-header">Another title</li>
-									<li class="disabled"><a role="menuitem" tabindex="-1" href="#">I'm a disabled link</a></li>
-									<li><a role="menuitem" tabindex="-1" href="#">Second item</a></li>
+									<li class="disabled"><a role="menuitem" tabindex="-1" href="#fakeLink">I'm a disabled link</a></li>
+									<li><a role="menuitem" tabindex="-1" href="#fakeLink">Second item</a></li>
 								</ul>
 							</div>
 						</div>
@@ -103,7 +105,7 @@
 				</div>
 
 				<!-- #### Buttons #### -->
-				<div id="buttons" class="componant-section componant-buttons" id="buttons">
+				<div id="buttons" class="componant-section componant-buttons">
 					<h2 class="demo-section-title">Buttons</h2>
 					<div class="row">
 						<div class="col-md-12">
@@ -444,7 +446,7 @@
 									</div>
 								</div>
 
-								<div class="form-group input-required hidden-xs">
+								<div class="form-group input-required">
 									<label class="col-sm-3 control-label">Required</label>
 									<div class="col-sm-9">
 										<input type="text" class="form-control" required placeholder="The Walrus, The Ranger, etc.">
@@ -556,67 +558,67 @@
 						<div class="col-md-6">
 							<h3 class="demo-componant-title">Default</h3>
 							<ul class="pagination">
-								<li><a href="#">&larr;</a></li>
-								<li><a href="#">1</a></li>
-								<li class="active"><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&rarr;</a></li>
+								<li><a href="#fakeLink">&larr;</a></li>
+								<li><a href="#fakeLink">1</a></li>
+								<li class="active"><a href="#fakeLink">2</a></li>
+								<li><a href="#fakeLink">3</a></li>
+								<li><a href="#fakeLink">4</a></li>
+								<li><a href="#fakeLink">5</a></li>
+								<li><a href="#fakeLink">&rarr;</a></li>
 							</ul>
 
 							<h3 class="demo-componant-title">Default Pager</h3>
 							<div class="row">
 								<div class="col-md-6">
 									<ul class="pager">
-										<li><a href="#">Previous</a></li>
-										<li><a href="#">Next</a></li>
+										<li><a href="#fakeLink">Previous</a></li>
+										<li><a href="#fakeLink">Next</a></li>
 									</ul>
 								</div>
 
 								<div class="col-md-6">
 									<ul class="pager">
-										<li class="disabled"><a href="#">Disabled</a></li>
-										<li class="active"><a href="#">Hover</a></li>
+										<li class="disabled"><a href="#fakeLink">Disabled</a></li>
+										<li class="active"><a href="#fakeLink">Hover</a></li>
 									</ul>
 								</div>
 							</div>
 
 							<h3 class="demo-componant-title">Aligned Pager</h3>
 							<ul class="pager">
-								<li class="previous disabled"><a href="#">&larr; Older</a></li>
-								<li class="next"><a href="#">Newer &rarr;</a></li>
+								<li class="previous disabled"><a href="#fakeLink">&larr; Older</a></li>
+								<li class="next"><a href="#fakeLink">Newer &rarr;</a></li>
 							</ul>
 						</div>
 
 						<div class="col-md-6 col-sm-8">
 							<h3 class="demo-componant-title">Sizing</h3>
 							<ul class="pagination pagination-sm">
-								<li><a href="#">&larr;</a></li>
-								<li><a href="#">1</a></li>
-								<li class="active"><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&rarr;</a></li>
+								<li><a href="#fakeLink">&larr;</a></li>
+								<li><a href="#fakeLink">1</a></li>
+								<li class="active"><a href="#fakeLink">2</a></li>
+								<li><a href="#fakeLink">3</a></li>
+								<li><a href="#fakeLink">4</a></li>
+								<li><a href="#fakeLink">5</a></li>
+								<li><a href="#fakeLink">&rarr;</a></li>
 							</ul>
 							<ul class="pagination">
-								<li><a href="#">&larr;</a></li>
-								<li><a href="#">1</a></li>
-								<li class="active"><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&rarr;</a></li>
+								<li><a href="#fakeLink">&larr;</a></li>
+								<li><a href="#fakeLink">1</a></li>
+								<li class="active"><a href="#fakeLink">2</a></li>
+								<li><a href="#fakeLink">3</a></li>
+								<li><a href="#fakeLink">4</a></li>
+								<li><a href="#fakeLink">5</a></li>
+								<li><a href="#fakeLink">&rarr;</a></li>
 							</ul>
 							<ul class="pagination pagination-lg">
-								<li><a href="#">&larr;</a></li>
-								<li><a href="#">1</a></li>
-								<li class="active"><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&rarr;</a></li>
+								<li><a href="#fakeLink">&larr;</a></li>
+								<li><a href="#fakeLink">1</a></li>
+								<li class="active"><a href="#fakeLink">2</a></li>
+								<li><a href="#fakeLink">3</a></li>
+								<li><a href="#fakeLink">4</a></li>
+								<li><a href="#fakeLink">5</a></li>
+								<li><a href="#fakeLink">&rarr;</a></li>
 							</ul>
 						</div>
 					</div>
@@ -629,66 +631,66 @@
 						<div class="col-md-6">
 							<h3 class="demo-componant-title">Tabs</h3>
 							<ul class="nav nav-tabs">
-								<li class="active"><a href="#">Home</a></li>
-								<li class="hidden-xs"><a href="#">Profile</a></li>
-								<li><a href="#">Hover</a></li>
+								<li class="active"><a href="#fakeLink">Home</a></li>
+								<li class="hidden-xs"><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Hover</a></li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#fakeLink">
 										Dropdown <span class="fa-chevron-down fa"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Dropdown item one</a></li>
-										<li class="active"><a href="#" >Second item</a></li>
-										<li><a href="#">Some third thing here</a></li>
+										<li><a href="#fakeLink">Dropdown item one</a></li>
+										<li class="active"><a href="#fakeLink" >Second item</a></li>
+										<li><a href="#fakeLink">Some third thing here</a></li>
 									</ul>
 								</li>
 							</ul>
 							<br><br>
 							<ul class="nav nav-tabs nav-stroke">
-								<li class="active"><a href="#">Home</a></li>
-								<li class="hidden-xs"><a href="#">Profile</a></li>
-								<li><a href="#">Hover</a></li>
+								<li class="active"><a href="#fakeLink">Home</a></li>
+								<li class="hidden-xs"><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Hover</a></li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#fakeLink">
 										Dropdown <span class="fa-chevron-down fa"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Dropdown item one</a></li>
-										<li class="active"><a href="#" >Second item</a></li>
-										<li><a href="#">Some third thing here</a></li>
+										<li><a href="#fakeLink">Dropdown item one</a></li>
+										<li class="active"><a href="#fakeLink" >Second item</a></li>
+										<li><a href="#fakeLink">Some third thing here</a></li>
 									</ul>
 								</li>
 							</ul>
 							<br>
 							<h3 class="demo-componant-title">Justified Tabs</h3>
 							<ul class="nav nav-tabs nav-justified">
-								<li class="active"><a href="#">Home</a></li>
-								<li><a href="#">Profile</a></li>
-								<li><a href="#">Hover</a></li>
+								<li class="active"><a href="#fakeLink">Home</a></li>
+								<li><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Hover</a></li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#fakeLink">
 										Dropdown <span class="fa-chevron-down fa"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Dropdown item one</a></li>
-										<li class="active"><a href="#" >Second item</a></li>
-										<li><a href="#">Some third thing here</a></li>
+										<li><a href="#fakeLink">Dropdown item one</a></li>
+										<li class="active"><a href="#fakeLink" >Second item</a></li>
+										<li><a href="#fakeLink">Some third thing here</a></li>
 									</ul>
 								</li>
 							</ul>
 							<br><br>
 							<ul class="nav nav-tabs nav-justified nav-stroke">
-								<li><a href="#">Home</a></li>
-								<li class="active"><a href="#">Profile</a></li>
-								<li><a href="#">Hover</a></li>
+								<li><a href="#fakeLink">Home</a></li>
+								<li class="active"><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Hover</a></li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#fakeLink">
 										Dropdown <span class="fa-chevron-down fa"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Dropdown item one</a></li>
-										<li class="active"><a href="#" >Second item</a></li>
-										<li><a href="#">Some third thing here</a></li>
+										<li><a href="#fakeLink">Dropdown item one</a></li>
+										<li class="active"><a href="#fakeLink" >Second item</a></li>
+										<li><a href="#fakeLink">Some third thing here</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -697,27 +699,27 @@
 							<h3 class="demo-componant-title">Pills</h3>
 
 							<ul class="nav nav-pills">
-								<li class="active"><a href="#">Home</a></li>
-								<li class="hidden-xs"><a href="#">Profile</a></li>
-								<li><a href="#">Hover</a></li>
+								<li class="active"><a href="#fakeLink">Home</a></li>
+								<li class="hidden-xs"><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Hover</a></li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#fakeLink">
 										Dropdown <span class="fa-chevron-down fa"></span>
 									</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Dropdown item one</a></li>
-										<li class="active"><a href="#" >Second item</a></li>
-										<li><a href="#">Some third thing here</a></li>
+										<li><a href="#fakeLink">Dropdown item one</a></li>
+										<li class="active"><a href="#fakeLink" >Second item</a></li>
+										<li><a href="#fakeLink">Some third thing here</a></li>
 									</ul>
 								</li>
-								<li class="hidden-xs disabled"><a href="#">Disabled</a></li>
+								<li class="hidden-xs disabled"><a href="#fakeLink">Disabled</a></li>
 							</ul>
 							<br>
 							<h3 class="demo-componant-title">Vertical Pills</h3>
 							<ul class="nav nav-pills nav-stacked col-md-4">
-								<li class="active"><a href="#">Home</a></li>
-								<li><a href="#">Profile</a></li>
-								<li><a href="#">Hover</a></li>
+								<li class="active"><a href="#fakeLink">Home</a></li>
+								<li><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Hover</a></li>
 							</ul>
 
 						</div>
@@ -730,30 +732,30 @@
 						<div class="col-md-6">
 							<h2 class="demo-section-title">Breadcrumbs</h2>
 							<ol class="breadcrumb breadcrumbs-minimal">
-								<li><a href="#">Home</a></li>
-								<li class="hidden-xs"><a href="#">Electronics Hover</a></li>
-								<li><a href="#">Cameras</a></li>
+								<li><a href="#fakeLink">Home</a></li>
+								<li class="hidden-xs"><a href="#fakeLink">Electronics Hover</a></li>
+								<li><a href="#fakeLink">Cameras</a></li>
 								<li class="active">Digital Cameras</li>
 							</ol>
 							<br>
 							<h2 class="demo-section-title">Badges</h2>
-							<a href="#">Settings <span class="badge">3</span></a>
+							<a href="#fakeLink">Settings <span class="badge">3</span></a>
 							<br><br>
 							<ul class="nav nav-pills">
-								<li class="active"><a href="#">Home <span class="badge">32</span></a></li>
-								<li><a href="#">Profile</a></li>
-								<li><a href="#">Settings <span class="badge">3</span></a></li>
+								<li class="active"><a href="#fakeLink">Home <span class="badge">32</span></a></li>
+								<li><a href="#fakeLink">Profile</a></li>
+								<li><a href="#fakeLink">Settings <span class="badge">3</span></a></li>
 							</ul>
 							<br>
 							<ul class="nav nav-pills nav-stacked col-md-5">
 								<li class="active">
-									<a href="#">
+									<a href="#fakeLink">
 										<span class="badge pull-right">32</span>Home
 									</a>
 								</li>
-								<li><a href="#">Profile</a></li>
+								<li><a href="#fakeLink">Profile</a></li>
 								<li>
-									<a href="#">
+									<a href="#fakeLink">
 										<span class="badge pull-right">3</span>
 										Messages
 									</a>
@@ -792,22 +794,22 @@
 					<h3 class="demo-componant-title">Default</h3>
 					<div class="row">
 						<div class="col-xs-6 col-md-3">
-							<a href="#" class="thumbnail fa-eye fa">
+							<a href="#fakeLink" class="thumbnail fa-eye fa">
 								<img src="images/thumbnail-01.jpg" alt="100%x180" >
 							</a>
 						</div>
 						<div class="col-xs-6 col-md-3">
-							<a href="#" class="thumbnail fa-eye fa">
+							<a href="#fakeLink" class="thumbnail fa-eye fa">
 								<img src="images/thumbnail-02.jpg" alt="100%x180">
 							</a>
 						</div>
 						<div class="col-xs-6 col-md-3">
-							<a href="#" class="thumbnail fa-eye fa">
+							<a href="#fakeLink" class="thumbnail fa-eye fa">
 								<img src="images/thumbnail-03.jpg" alt="100%x180">
 							</a>
 						</div>
 						<div class="col-xs-6 col-md-3">
-							<a href="#" class="thumbnail fa-eye fa">
+							<a href="#fakeLink" class="thumbnail fa-eye fa">
 								<img src="images/thumbnail-04.jpg" alt="100%x180">
 							</a>
 						</div>
@@ -822,8 +824,8 @@
 							        <h4>15 men on a dead chest</h4>
 							        <p>Fifteen men on the dead man’s chest – Yo-ho-ho and a bottle of rum! Drink and the devil had done for the rest – Yo-ho-ho and a bottle of rum!</p>
 							        <p>
-							        	<a href="#" class="btn btn-primary" style="width: 100px;">Arr!</a>
-							        	<a href="#" class="btn btn-default btn-stroke" style="width: 100px; margin-left: 10px;">Avast</a>
+							        	<a href="#fakeLink" class="btn btn-primary" style="width: 100px;">Arr!</a>
+							        	<a href="#fakeLink" class="btn btn-default btn-stroke" style="width: 100px; margin-left: 10px;">Avast</a>
 							        </p>
 						      	</div>
 						    </div>
@@ -835,8 +837,8 @@
 							        <h4>The mate was fixed</h4>
 							        <p>by the bos’n's pike, the bos’n brained with a marlinspike and Cookey’s throat was marked belike. It had been gripped by fingers ten.</p>
 							        <p>
-							        	<a href="#" class="btn btn-primary" style="width: 100px;">Arr!</a>
-							        	<a href="#" class="btn btn-default btn-stroke" style="width: 100px; margin-left: 10px;">Avast</a>
+							        	<a href="#fakeLink" class="btn btn-primary" style="width: 100px;">Arr!</a>
+							        	<a href="#fakeLink" class="btn btn-default btn-stroke" style="width: 100px; margin-left: 10px;">Avast</a>
 							        </p>
 						      	</div>
 						    </div>
@@ -848,8 +850,8 @@
 	   						        <h4>And there they lay</h4>
 							        <p>All good dead men, like break-o’-day in a boozing-ken – Yo-ho-ho and a bottle of rum! Fifteen men of a whole ship’s list – Yo-ho-ho and a bottle of rum!</p>
 							        <p>
-							        	<a href="#" class="btn btn-primary" style="width: 100px;">Arr!</a>
-							        	<a href="#" class="btn btn-default btn-stroke" style="width: 100px; margin-left: 10px;">Avast</a>
+							        	<a href="#fakeLink" class="btn btn-primary" style="width: 100px;">Arr!</a>
+							        	<a href="#fakeLink" class="btn btn-default btn-stroke" style="width: 100px; margin-left: 10px;">Avast</a>
 							        </p>
 						      	</div>
 						    </div>
@@ -880,61 +882,6 @@
 						<button type="button" class="close fa-times fa"></button>
 						Error! I am sorry to see you here, <strong>but if you had fought like a man,</strong> you needn't be hanged like a dog.
 					</div>
-				</div>
-
-				<!-- #### Media Objects #### -->
-				<div class="componant-section hide" id="media-objects">
-					<h2 class="demo-section-title">Media Objects</h2>
-					<ul class="media-list">
-						<li class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIj48L3JlY3Q+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+" style="width: 64px; height: 64px;">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
-								<!-- Nested media object -->
-								<div class="media">
-									<a class="pull-left" href="#">
-										<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIj48L3JlY3Q+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+" style="width: 64px; height: 64px;">
-									</a>
-									<div class="media-body">
-										<h4 class="media-heading">Nested media heading</h4>
-										Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-										<!-- Nested media object -->
-										<div class="media">
-											<a class="pull-left" href="#">
-												<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIj48L3JlY3Q+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+" style="width: 64px; height: 64px;">
-											</a>
-											<div class="media-body">
-												<h4 class="media-heading">Nested media heading</h4>
-												Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Nested media object -->
-								<div class="media">
-									<a class="pull-left" href="#">
-										<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIj48L3JlY3Q+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+" style="width: 64px; height: 64px;">
-									</a>
-									<div class="media-body">
-										<h4 class="media-heading">Nested media heading</h4>
-										Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIj48L3JlY3Q+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+" style="width: 64px; height: 64px;">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-							</div>
-						</li>
-					</ul>
 				</div>
 
 				<!-- #### Panels #### -->
@@ -1107,51 +1054,44 @@
 							<h3 class="demo-componant-title">Default</h3>
 							<nav class="navbar navbar-default" role="navigation">
 								<div class="container-fluid">
-									<!-- Brand and toggle get grouped for better mobile display -->
 									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-										<a class="navbar-brand" href="#">Hoarrd!</a>
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1"><span class="fa fa-bars"></span></button>
+										<img class="navbar-brand-img" src="images/logo-dark@2x.png" alt="" width="101">
 									</div>
 
-									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse navbar-collapse">
+									<div class="collapse navbar-collapse" id="navbar-collapse-1">
 										<ul class="nav navbar-nav">
-											<li class="active"><a href="#">Ranger</a></li>
-											<li><a href="#">Walrus</a></li>
+											<li class="active"><a href="#fakeLink">Ranger</a></li>
+											<li><a href="#fakeLink">Walrus</a></li>
 											<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Whydah <span class="fa-chevron-down fa"></span></a>
+												<a href="#fakeLink" class="dropdown-toggle" data-toggle="dropdown">Whydah <span class="fa-chevron-down fa"></span></a>
 												<ul class="dropdown-menu">
 													<div class="arrow top"></div>
-													<li><a href="#">Action</a></li>
-													<li class="active"><a href="#">Another action</a></li>
-													<li><a href="#">Something else here</a></li>
+													<li><a href="#fakeLink">Action</a></li>
+													<li class="active"><a href="#fakeLink">Another action</a></li>
+													<li><a href="#fakeLink">Something else here</a></li>
 												</ul>
 											</li>
 										</ul>
 										<ul class="nav navbar-nav navbar-right navbar-icons">
 											<li>
-												<a href="#">
+												<a href="#fakeLink">
 													<span class="fa-user fa"></span><span class="hidden-lg">My Account</span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="#fakeLink">
 													<span class="fa-bell fa"></span><span class="hidden-lg">Messages</span>
 													<span class="navbar-new"></span>
 												</a>
 											</li>
 											<li>
-												<a href="#">
+												<a href="#fakeLink">
 													<span class="fa-cog fa"></span><span class="hidden-lg">Settings</span>
 												</a>
 											</li>
 										</ul>
-										<p class="navbar-text navbar-right">Heigh-ho, <a href="#" class="navbar-link">Billy Bones</a></p>
+										<p class="navbar-text navbar-right">Heigh-ho, <a href="#fakeLink" class="navbar-link">Billy Bones</a></p>
 									</div><!-- /.navbar-collapse -->
 								</div><!-- /.container-fluid -->
 							</nav>
@@ -1159,29 +1099,22 @@
 							<h3 class="demo-componant-title">Dark</h3>
 							<nav class="navbar navbar-inverse" role="navigation">
 								<div class="container-fluid">
-									<!-- Brand and toggle get grouped for better mobile display -->
 									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-										<a class="navbar-brand" href="#">Hoarrd!</a>
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2"><span class="fa fa-bars"></span></button>
+										<img class="navbar-brand-img" src="images/logo-dark@2x.png" alt="" width="101">
 									</div>
 
-									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse navbar-collapse">
+									<div class="collapse navbar-collapse" id="navbar-collapse-2">
 										<ul class="nav navbar-nav">
-											<li class="active"><a href="#">Ranger</a></li>
-											<li><a href="#">Walrus</a></li>
+											<li class="active"><a href="#fakeLink">Ranger</a></li>
+											<li><a href="#fakeLink">Walrus</a></li>
 											<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Whydah <span class="fa-chevron-down fa"></span></a>
+												<a href="#fakeLink" class="dropdown-toggle" data-toggle="dropdown">Whydah <span class="fa-chevron-down fa"></span></a>
 												<ul class="dropdown-menu">
 													<div class="arrow top"></div>
-													<li><a href="#">Action</a></li>
-													<li class="active"><a href="#">Another action</a></li>
-													<li><a href="#">Something else here</a></li>
+													<li><a href="#fakeLink">Action</a></li>
+													<li class="active"><a href="#fakeLink">Another action</a></li>
+													<li><a href="#fakeLink">Something else here</a></li>
 												</ul>
 											</li>
 										</ul>
@@ -1203,7 +1136,7 @@
 												</a>
 											</li>
 										</ul>
-										<p class="navbar-text navbar-right">Heigh-ho, <a href="#" class="navbar-link">Billy Bones</a></p>
+										<p class="navbar-text navbar-right">Heigh-ho, <a href="#fakeLink" class="navbar-link">Billy Bones</a></p>
 									</div><!-- /.navbar-collapse -->
 								</div><!-- /.container-fluid -->
 							</nav>
@@ -1222,13 +1155,13 @@
 								<img src="images/captain-hoarrd.png" alt="">
 								<h4>James Hoarrd</h4>
 								<p>Ship Captain</p>
-								<a href="#" class="btn btn-block btn-danger btn-embossed">Profile</a>
+								<a href="#fakeLink" class="btn btn-block btn-danger btn-embossed">Profile</a>
 							</div>
 						</div>
 						<div class="col-md-4 col-md-offset-1 col-sm-6">
 							<h3 class="demo-componant-title">Login</h3>
 							<div class="tile tile-login">
-								<h3 class="logo">Hoarrd!</h3>
+								<img class="logo" src="images/logo-yellow@2x.png" alt="" width="102">
 								<div class="input-icon">
 									<span class="fa-user fa"></span>
 									<input type="text" class="form-control" placeholder="Username">
@@ -1238,16 +1171,16 @@
 									<input type="password" class="form-control" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
 								</div>
 
-								<a href="#" class="btn btn-block btn-primary btn-embossed">Log in</a>
+								<a href="#fakeLink" class="btn btn-block btn-primary btn-embossed">Log in</a>
 
 								<div class="login-action clearfix">
-						          	<div class="col-md-8">
+						          	<div class="col-md-8 col-xs-9">
 						          		<label class="checkbox" for="checkbox1">
 							            	<input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" />Remember Me
 							        	</label>
 							    	</div>
-							        <div class="col-md-4">
-							        	<a href="#">Forget?</a>
+							        <div class="col-md-4 col-xs-3">
+							        	<a href="#fakeLink">Forget?</a>
 							        </div>
 						        </div>
 							</div>
@@ -1296,11 +1229,11 @@
 					<br>
 					<br>
 					<div id="user-toolbar-options" style="display: none">
-						<a href="#"><i class="fa fa-user"></i></a>
-						<a href="#"><i class="fa fa-star"></i></a>
-						<a href="#"><i class="fa fa-flag"></i></a>
-						<a href="#"><i class="fa fa-edit"></i></a>
-						<a href="#"><i class="fa fa-trash-o"></i></a>
+						<a href="#fakeLink"><i class="fa fa-user"></i></a>
+						<a href="#fakeLink"><i class="fa fa-star"></i></a>
+						<a href="#fakeLink"><i class="fa fa-flag"></i></a>
+						<a href="#fakeLink"><i class="fa fa-edit"></i></a>
+						<a href="#fakeLink"><i class="fa fa-trash-o"></i></a>
 					</div>
 				</div>
 			</div>
