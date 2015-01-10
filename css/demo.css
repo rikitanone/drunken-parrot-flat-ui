@@ -27,6 +27,24 @@
   font-size: 12px;
   padding-left: 4px;
 }
+.promo {
+  background: #f84545;
+  color: white;
+  z-index: 3;
+  padding: 3px;
+  position: relative;
+}
+.promo > p {
+  margin: 0;
+  color: white;
+}
+.promo > p > a {
+  color: white;
+  text-decoration: underline;
+}
+.promo > p > a:hover {
+  text-decoration: none;
+}
 .container .jumbotron {
   border-radius: 0;
 }
@@ -214,26 +232,4 @@
     padding: 14px 20px;
     border-top: 1px solid #d6e1e5;
   }
-}
-
-.promo {
-  background: #f84545;
-  color: white;
-  z-index: 3;
-  padding: 3px;
-  position: relative;
-}
-
-.promo > p {
-  margin: 0;
-  color: white
-}
-
-.promo > p > a {
-  color: white;
-  text-decoration: underline;
-}
-
-.promo > p > a:hover {
-  text-decoration: none;
 }
