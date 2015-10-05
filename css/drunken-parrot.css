@@ -1035,17 +1035,12 @@ fieldset[disabled] .btn-inverse.active {
   right: auto;
 }
 .dropdown-menu > li > a {
-  margin-left: -1px;
-  margin-right: -1px;
   color: #5e6969;
   font-size: 16px;
   padding: 4px 15px;
 }
 .dropdown-menu > li > a:hover {
   background-color: #e1eef3;
-  position: relative;
-  left: 1px;
-  width: 100%;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -1055,9 +1050,6 @@ fieldset[disabled] .btn-inverse.active {
   outline: 0;
   background-color: #02baf2;
   border: 1px solid #009dcd;
-  position: relative;
-  left: 1px;
-  width: 100%;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
