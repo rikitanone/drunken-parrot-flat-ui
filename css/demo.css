@@ -51,6 +51,9 @@
 .container .typography-container {
   background: #364347;
 }
+.height-splitter {
+  padding-top: 8em;
+}
 .container .typography-container h1,
 .container .typography-container h2,
 .container .typography-container h3,
